@@ -5,5 +5,64 @@
 }
 
 body{
-    font-family: roboto;
+
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;  
+}
+
+.heading{
+    font-size: 40px;
+    font-weight: 900px;
+    text-transform: uppercase;
+    margin-top: 45px;
+    color: red;
+    margin-bottom: 0;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin: 32px;
+  
+}
+
+.basic-card{
+    width: 260px;
+    padding: 32px;
+    border-radius: 16px;
+    color: #4e4e4e;
+    border-radius: 5px solid black;
+
+}
+
+.title{
+    text-transform: uppercase;
+    margin: 0 0 16px;
+
+}
+
+.card-description{
+    margin: 32px 0;
+    line-height: 1.5;
+}
+
+
+.super-card{
+    width: 260px;
+    padding: 32px;
+    border-radius: 16px;
+    color: #4e4e4e;
+
+}
+
+
+.enterprise-card{
+    width: 260px;
+    padding: 32px;
+    border-radius: 16px;
+    color: #4e4e4e;
+   
+
+
 }
