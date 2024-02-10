@@ -5,9 +5,9 @@
 }
 
 body{
-
     font-family: 'Times New Roman', Times, serif;
     text-align: center;  
+    background-color: rgb(34, 34, 34);   
 }
 
 .heading{
@@ -15,7 +15,7 @@ body{
     font-weight: 900px;
     text-transform: uppercase;
     margin-top: 45px;
-    color: red;
+    color:rgb(132,230,245);
     margin-bottom: 0;
     
 }
@@ -27,42 +27,86 @@ body{
   
 }
 
-.basic-card{
-    width: 260px;
-    padding: 32px;
-    border-radius: 16px;
-    color: #4e4e4e;
-    border-radius: 5px solid black;
-
-}
 
 .title{
     text-transform: uppercase;
     margin: 0 0 16px;
+    color: white;
+
+}
+.plan-pricing{
+    margin: 0;
+    font-size: 38px;
+    line-height: 1;
+    font-weight: 400;
+    color: white;
 
 }
 
 .card-description{
     margin: 32px 0;
     line-height: 1.5;
+    color: white;
+
+    
 }
 
-
-.super-card{
+.card{
     width: 260px;
+    height: 480px;
     padding: 32px;
     border-radius: 16px;
     color: #4e4e4e;
-
+    background-color: #5655557b;
+    margin-right: 15px;
+    border: 2px solid rgb(132,230,245);
+    box-shadow: 0 0 5px rgb(132,230,245);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+  
+}
+.card:hover{
+    box-shadow: 0 0 20px rgb(132,230,245));
+    scale: 1.01;
 }
 
 
-.enterprise-card{
-    width: 260px;
-    padding: 32px;
-    border-radius: 16px;
-    color: #4e4e4e;
-   
+
+.join-btn{
+    display: inline-block;
+    padding: 8px 15px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: 700;
+    transition: 0.3s;
+    background-color: rgb(6, 173, 115);
+    color: white;
+}
+
+.join-btn:hover{
+    opacity:0.6;
+}
 
 
+.btn{
+    display: inline-block;
+    padding: 18px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 700;
+    transition: 0.3s;
+    margin-bottom: 48px;
+    text-transform: uppercase;
+    background-color: rgb(6, 173, 115);
+    color: white;
+    font-size: 20px;
+}
+.btn:hover{
+    opacity:0.6;
+}
+
+
+.sub-line{
+    font-size: 20px;
+    color: white;
 }
