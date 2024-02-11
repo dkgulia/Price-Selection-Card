@@ -100,9 +100,14 @@ body{
     background-color: rgb(6, 173, 115);
     color: white;
     font-size: 20px;
+    box-shadow: 0 0 5px rgb(132,230,245);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
 }
 .btn:hover{
     opacity:0.6;
+    box-shadow: 0 0 20px rgb(132,230,245);
+    scale: 1.01;
 }
 
 
